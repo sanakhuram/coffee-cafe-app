@@ -1,0 +1,22 @@
+# Ignore artifacts:
+build
+.next
+out
+coverage
+node_modules
+
+# Ignore public files
+public
+
+# Ignore config files
+*.lock
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Ignore VS Code settings
+.vscode
+
+# Optional: Ignore Tailwind config if you want
+tailwind.config.ts
+postcss.config.js
