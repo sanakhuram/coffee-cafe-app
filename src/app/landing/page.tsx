@@ -45,6 +45,7 @@ export default function Landing() {
             src="/buy.jpg"
             alt="Buy Coffee"
             fill
+            priority
             className="group-hover:scale-105 transition-transform duration-300 object-cover"
           />
           <div className="absolute inset-0  bg-opacity-40 flex items-center justify-center">

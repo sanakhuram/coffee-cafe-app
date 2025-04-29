@@ -67,6 +67,7 @@ export default function GalleryPage() {
               src={selectedImage.src}
               alt={selectedImage.alt}
               fill
+              priority
               className="object-contain rounded-lg w-full h-full max-w-full max-h-[90vh]"
               sizes="(max-width: 768px) 90vw, (max-width: 1200px) 75vw, 50vw"
             />
