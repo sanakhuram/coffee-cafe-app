@@ -24,7 +24,7 @@ export default function ContactPage() {
     };
 
     return (
-        <main className="min-h-screen bg-background text-amber-800 py-16 px-4 ">
+        <main className="min-h-screen bg-background text-amber-700 py-16 px-4 ">
             <div className="bg-coffee rounded-xl shadow-xl container mx-auto px-6 py-12 md:py-16  shadow-amber-600">
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-start">
                     <div className="w-full md:w-1/2">
@@ -39,7 +39,7 @@ export default function ContactPage() {
                                 placeholder="Your Name"
                                 value={form.name}
                                 onChange={handleChange}
-                                className="w-full p-3 rounded-lg border border-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                                className="w-full p-3 rounded-lg border border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500"
                                 required
                             />
                             <input
@@ -48,7 +48,7 @@ export default function ContactPage() {
                                 placeholder="Your Email"
                                 value={form.email}
                                 onChange={handleChange}
-                                className="w-full p-3 rounded-lg border border-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                                className="w-full p-3 rounded-lg border border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500"
                                 required
                             />
                             <input
@@ -57,7 +57,7 @@ export default function ContactPage() {
                                 placeholder="Phone Number"
                                 value={form.phone}
                                 onChange={handleChange}
-                                className="w-full p-3 rounded-lg border border-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                                className="w-full p-3 rounded-lg border border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500"
                             />
                             <textarea
                                 name="message"
@@ -65,7 +65,7 @@ export default function ContactPage() {
                                 value={form.message}
                                 onChange={handleChange}
                                 rows={4}
-                                className="w-full p-3 rounded-lg border border-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                                className="w-full p-3 rounded-lg border border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500"
                                 required
                             />
                             <button
@@ -89,25 +89,25 @@ export default function ContactPage() {
                     </div>
                 </div>
 
-                <div className="mt-20 text-center text-amber-100">
+                <div className="mt-20 text-center text-orange-300">
                     <h2 className="text-3xl font-bold mb-10">Where Are We Located?</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10 justify-items-center">
                         <div className="text-center">
-                            <FaMapMarkerAlt className="mx-auto text-amber-300 mb-2 text-xl" />
+                            <FaMapMarkerAlt className="mx-auto text-amber-500 mb-2 text-xl" />
                             <h3 className="text-xl font-semibold mb-1">Oslo</h3>
                             <p className="text-sm mb-1">123 Bean Street</p>
                             <p className="text-sm flex justify-center items-center gap-2"><FaEnvelope /> coffee@brewandbloom.no</p>
                             <p className="text-sm flex justify-center items-center gap-2"><FaPhone /> +47 400 00 001</p>
                         </div>
                         <div className="text-center">
-                            <FaMapMarkerAlt className="mx-auto text-amber-300 mb-2 text-xl" />
+                            <FaMapMarkerAlt className="mx-auto text-amber-500 mb-2 text-xl" />
                             <h3 className="text-xl font-semibold mb-1">Trondheim</h3>
                             <p className="text-sm mb-1">45 Roast Road</p>
                             <p className="text-sm flex justify-center items-center gap-2"><FaEnvelope /> hello.trd@brewandbloom.no</p>
                             <p className="text-sm flex justify-center items-center gap-2"><FaPhone /> +47 400 00 002</p>
                         </div>
                         <div className="text-center">
-                            <FaMapMarkerAlt className="mx-auto text-amber-300 mb-2 text-xl" />
+                            <FaMapMarkerAlt className="mx-auto text-amber-500 mb-2 text-xl" />
                             <h3 className="text-xl font-semibold mb-1">Bergen</h3>
                             <p className="text-sm mb-1">78 Steam Ave</p>
                             <p className="text-sm flex justify-center items-center gap-2"><FaEnvelope /> bergen@brewandbloom.no</p>

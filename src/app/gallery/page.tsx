@@ -41,9 +41,9 @@ export default function GalleryPage() {
             <button
               key={item.id}
               onClick={() => openLightbox(item)}
-              className={`relative overflow-hidden rounded-lg shadow-md group ${item.size === "small" ? "row-span-1 col-span-1" :
-                  item.size === "medium" ? "row-span-2 col-span-1" :
-                    item.size === "large" ? "row-span-2 col-span-2" : ""
+              className={`relative overflow-hidden rounded-lg shadow-md shadow-amber-900 group ${item.size === "small" ? "row-span-1 col-span-1" :
+                item.size === "medium" ? "row-span-2 col-span-1" :
+                  item.size === "large" ? "row-span-2 col-span-2" : ""
                 }`}
             >
               <Image
@@ -62,14 +62,15 @@ export default function GalleryPage() {
 
       {selectedImage && (
         <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
-          <div className="relative w-11/12 md:w-3/4 lg:w-1/2">
+          <div className="relative w-full max-w-3xl h-[80vh] mx-auto">
             <Image
               src={selectedImage.src}
               alt={selectedImage.alt}
-              width={1000}
-              height={800}
-              className="rounded-lg"
+              fill
+              className="object-contain rounded-lg w-full h-full max-w-full max-h-[90vh]"
+              sizes="(max-width: 768px) 90vw, (max-width: 1200px) 75vw, 50vw"
             />
+
             <button
               onClick={closeLightbox}
               className="absolute top-4 right-4 bg-amber-600 text-black rounded-full p-2 hover:bg-gray-200"

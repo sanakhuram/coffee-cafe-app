@@ -43,7 +43,7 @@ export default function CartPage() {
 
                 {cart.length === 0 ? (
                     <div className="text-center mt-16">
-                        <FaShoppingCart size={64} className="mx-auto mb-4 text-amber-400" />
+                        <FaShoppingCart size={64} className="mx-auto mb-4 text-amber-700" />
                         <p className="text-lg">Your cart is empty. Go grab some coffee! ☕</p>
                     </div>
                 ) : (

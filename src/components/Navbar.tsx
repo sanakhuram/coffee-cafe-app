@@ -14,7 +14,7 @@ export default function Navbar() {
     const cartCount = cart.reduce((acc, item) => acc + item.quantity, 0); 
 
     return (
-        <nav className="sticky top-0 z-50 bg-coffee text-amber-600 shadow-md">
+        <nav className="sticky top-0 z-50 bg-coffee text-amber-600 shadow-md shadow-amber-900">
             <div className="container mx-auto flex items-center justify-between p-4">
                 <Link href="/" className="flex items-center gap-2 text-2xl font-bold">
                     <Image
