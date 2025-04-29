@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
-import { useCartStore } from "@/store/cartStore";
-import toast from "react-hot-toast";
-import Image from "next/image";
+import { useEffect, useState } from 'react';
+import { useCartStore } from '@/store/cartStore';
+import toast from 'react-hot-toast';
+import Image from 'next/image';
 
 type CoffeeItem = {
     id: string;
@@ -22,14 +22,14 @@ export default function CoffeeMenu() {
     useEffect(() => {
         async function fetchCoffee() {
             try {
-                const res = await fetch("/api/coffee");
+                const res = await fetch('/api/coffee');
                 if (!res.ok) {
-                    throw new Error("Failed to fetch coffee data");
+                    throw new Error('Failed to fetch coffee data');
                 }
                 const data = await res.json();
                 setCoffees(data);
             } catch (error) {
-                console.error("Failed to fetch coffee menu:", error);
+                console.error('Failed to fetch coffee menu:', error);
             }
         }
         fetchCoffee();
@@ -55,6 +55,7 @@ export default function CoffeeMenu() {
                                 alt={coffee.name}
                                 fill
                                 className="object-cover"
+                                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             />
                         </div>
 
@@ -64,7 +65,6 @@ export default function CoffeeMenu() {
                             <p className="text-xs text-amber-600 line-clamp-2">{coffee.description}</p>
                         </div>
                     </div>
-
                 ))}
             </div>
             {selectedCoffee && (
@@ -118,7 +118,6 @@ export default function CoffeeMenu() {
                     </div>
                 </div>
             )}
-
         </section>
     );
 }

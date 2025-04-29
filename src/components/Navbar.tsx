@@ -5,16 +5,16 @@ import { ShoppingCart, Info, PhoneCall } from "lucide-react";
 import { PiCoffeeBeanFill } from "react-icons/pi";
 import { SiCoffeescript } from "react-icons/si";
 import { useState } from "react";
-import { useCartStore } from "@/store/cartStore"; // <-- NEW
+import { useCartStore } from "@/store/cartStore"; 
 import Image from "next/image";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-    const { cart } = useCartStore(); // <-- NEW
-    const cartCount = cart.reduce((acc, item) => acc + item.quantity, 0); // <-- NEW
+    const { cart } = useCartStore(); 
+    const cartCount = cart.reduce((acc, item) => acc + item.quantity, 0); 
 
     return (
-        <nav className="bg-coffee text-amber-600 shadow-md">
+        <nav className="sticky top-0 z-50 bg-coffee text-amber-600 shadow-md">
             <div className="container mx-auto flex items-center justify-between p-4">
                 <Link href="/" className="flex items-center gap-2 text-2xl font-bold">
                     <Image
