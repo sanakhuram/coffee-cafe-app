@@ -13,14 +13,7 @@
   <a href="https://coffee-cafe-app.vercel.app/landing">
     <img alt="Live Site" src="https://img.shields.io/badge/Live-Demo-orange?style=for-the-badge&logo=vercel">
   </a>
-  <img alt="Dependencies" src="https://img.shields.io/david/username/repo-name?style=for-the-badge">
 </p>
-
----
-
-## 🚀 Live Demo
-
-🌐 [https://coffee-cafe-app.vercel.app/landing](https://coffee-cafe-app.vercel.app/landing)
 
 ---
 
