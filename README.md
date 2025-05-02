@@ -1,8 +1,4 @@
-Perfect! Here's your **copy-paste-ready `README.md`** for VS Code. No fluff, no broken links — just pure markdown goodness. Just copy everything below and slap it into your `README.md` file:
 
----
-
-````md
 <div align="center">
   <img src="public/logo.png" alt="Bloom and Brew Logo" width="200"/>
   <h1 align="center">☕🌸 Bloom & Brew – Coffee that Inspires</h1>
