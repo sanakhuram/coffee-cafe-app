@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="./public/logo.png" alt="Bloom and Brew Logo" width="200" style="border-radius: 50%" />
-</div>
-
 <h1 align="center">☕🌸 Bloom & Brew – Coffee that Inspires</h1>
 
 <p align="center">
