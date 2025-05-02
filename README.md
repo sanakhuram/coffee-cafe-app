@@ -1,13 +1,20 @@
-
 <div align="center">
-  <img src="public/logo.png" alt="Bloom and Brew Logo" width="200" style="border-radius: 50%;" />
-  <h1 align="center">☕🌸 Bloom & Brew – Coffee that Inspires</h1>
-  <p align="center">
-    A cozy café experience brewed into a web app.<br/>
-    Sip, shop, explore — all from your screen.
-  </p>
+  <img src="./public/logo.png" alt="Bloom and Brew Logo" width="200" style="border-radius: 50%" />
 </div>
 
+<h1 align="center">☕🌸 Bloom & Brew – Coffee that Inspires</h1>
+
+<p align="center">
+  A cozy café experience brewed into a web app.<br/>
+  Sip, shop, explore — all from your screen.
+</p>
+
+<p align="center">
+  <a href="https://coffee-cafe-app.vercel.app/landing">
+    <img alt="Live Site" src="https://img.shields.io/badge/Live-Demo-orange?style=for-the-badge&logo=vercel">
+  </a>
+  <img alt="Dependencies" src="https://img.shields.io/david/username/repo-name?style=for-the-badge">
+</p>
 
 ---
 
@@ -19,9 +26,7 @@
 
 ## 📸 Preview
 
-```md
 ![Landing Page Preview](./public/preview.jpg)
-````
 
 ---
 
@@ -56,7 +61,7 @@
 ```bash
 git clone https://github.com/your-username/bloom-and-brew.git
 cd bloom-and-brew
-```
+
 
 2. **Install dependencies**
 
@@ -93,7 +98,7 @@ npm run dev
 
 ## ✍️ Author
 
-Built with ❤️ and caffeine by [@sanakhuram](https://sanakhuram.netlify.app)
+Built with ❤️ and caffeine by [@sanakhuram](https://skhuram.netlify.app)
 
 ---
 
