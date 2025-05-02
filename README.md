@@ -1,12 +1,13 @@
 
 <div align="center">
-  <img src="public/logo.png" alt="Bloom and Brew Logo" width="200"/>
+  <img src="public/logo.png" alt="Bloom and Brew Logo" width="200" style="border-radius: 50%;" />
   <h1 align="center">☕🌸 Bloom & Brew – Coffee that Inspires</h1>
   <p align="center">
     A cozy café experience brewed into a web app.<br/>
     Sip, shop, explore — all from your screen.
   </p>
 </div>
+
 
 ---
 
@@ -18,10 +19,8 @@
 
 ## 📸 Preview
 
-_If you have a landing preview image, put it in `/public/preview.jpg` and it’ll show up here!_
-
 ```md
-![Landing Page Preview](public/preview.jpg)
+![Landing Page Preview](./public/preview.jpg)
 ````
 
 ---
@@ -47,31 +46,6 @@ _If you have a landing preview image, put it in `/public/preview.jpg` and it’l
 * **Custom API Routes**
 * **react-hot-toast**
 * **ESLint + Prettier**
-
----
-
-## 🧩 Project Structure
-
-```bash
-📁 components/
-│   ├── Hero.tsx
-│   ├── CoffeeMenu.tsx
-│   ├── Navbar.tsx
-│   └── Footer.tsx
-
-📁 app/
-│   ├── landing/          # Landing page
-│   ├── gallery/          # Coffee art gallery
-│   ├── buy/              # Coffee shop menu
-│   ├── about/            # About Brew & Bloom
-│   ├── contact/          # Contact form + locations
-│   └── success/          # Thank you page
-
-📁 public/
-│   ├── galleryX.jpg      # Images used in the gallery
-│   ├── buy.jpg           # Landing section image
-│   └── logo.png          # Logo image
-```
 
 ---
 
@@ -127,10 +101,7 @@ Built with ❤️ and caffeine by [@sanakhuram](https://sanakhuram.netlify.app)
 
 Open-source and free to sip, stir, or remix.
 
----
 
-> “Coffee is a language in itself.” – Jackie Chan
-> Brew it. Bloom it. Repeat. ✨
 
-```
+
 
