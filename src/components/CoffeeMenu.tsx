@@ -67,9 +67,10 @@ export default function CoffeeMenu() {
                     </div>
                 ))}
             </div>
+
             {selectedCoffee && (
-                <div className="fixed inset-0 bg-black bg-opacity-60 z-50 flex items-center justify-center px-4">
-                    <div className="bg-coffee p-6 rounded-2xl max-w-5xl w-full shadow-lg relative flex flex-col md:flex-row gap-6">
+                <div className="fixed inset-0 bg-black bg-opacity-60 z-50 overflow-y-auto px-4 py-12">
+                    <div className="bg-coffee p-6 rounded-2xl max-w-5xl w-full shadow-lg relative flex flex-col md:flex-row gap-6 max-h-[90vh] overflow-y-auto mx-auto">
                         <button
                             onClick={() => setSelectedCoffee(null)}
                             className="absolute top-2 right-4 text-yellow-500 text-3xl font-bold hover:text-amber-600 z-50"
@@ -93,7 +94,7 @@ export default function CoffeeMenu() {
                                 <p className="mb-4">{selectedCoffee.description}</p>
 
                                 <h4 className="text-lg font-semibold text-amber-700 mb-2">Ingredients:</h4>
-                                <ul className="list-disc list-inside mb-4 text-sm ">
+                                <ul className="list-disc list-inside mb-4 text-sm">
                                     {selectedCoffee.ingredients.map((item, i) => (
                                         <li key={i}>{item}</li>
                                     ))}

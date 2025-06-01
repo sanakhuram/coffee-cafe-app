@@ -40,8 +40,8 @@ export default function RootLayout({
             duration: 3000,
             style: {
               background: "#fffaf0",
-              color: "#713f12", // amber-700 like color
-              border: "1px solid #facc15", // subtle yellow border
+              color: "#713f12", 
+              border: "1px solid #facc15", 
             },
           }}
         />
